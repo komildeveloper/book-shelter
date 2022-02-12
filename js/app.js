@@ -2,7 +2,7 @@
 
 const localToken = window.localStorage.getItem('token')
 if (!localToken) {
-	window.location('login.html')
+	window.location.replace('login.html')
 }
 
 logout.addEventListener('click', () => {
